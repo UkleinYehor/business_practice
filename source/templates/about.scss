@@ -1,0 +1,52 @@
+.about {
+    padding: 99px 0 105px 0;
+    text-align: center;
+
+    &__list{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+}
+
+
+
+.list__item{
+    width: 27%;
+}
+.icon{
+    margin: auto auto 23px auto;
+
+}
+
+
+.icon--like {
+    @include sprite($like);
+   
+}
+
+.icon--book {
+    @include sprite($book);
+   
+}
+.icon--chat {
+    @include sprite($message);
+   
+}
+
+
+
+.item {
+
+    &__title {
+        font-size: 1.375rem;
+        margin-bottom: 6px;
+    }
+
+    &__text {
+        font-size: 0.875rem;
+        color: #5c5c5c;
+        margin: 0;
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "business_practice",
+  "version": "1.0.0",
+  "description": "this is practice page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UkleinYehor/business_practice.git"
+  },
+  "author": "Uklein Yehor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UkleinYehor/business_practice/issues"
+  },
+  "homepage": "https://github.com/UkleinYehor/business_practice#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-template": "^5.0.0",
+    "gulp.spritesmith": "^6.13.0",
+    "rimraf": "^5.0.0",
+    "sass": "^1.62.0"
+  }
+}

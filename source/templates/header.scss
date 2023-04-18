@@ -1,0 +1,98 @@
+.header {
+
+
+    &__top {
+        color: $main-header-color;
+        background-color: #f0f2f4;;
+        border-bottom: 1px solid #e2e2e2;
+    }
+
+    &__bottom {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 41px 0px 32px;
+
+    }
+
+    &__logo {
+        border: 0;
+    }
+}
+
+.contacts {
+    text-align: right;
+}
+
+.contact {
+    display: inline-block;
+    color: $main-header-color;
+    vertical-align: top;
+    padding: 10px;
+    transition: 0.3s;
+
+    &:first-child{
+        border-right: 1px solid #e2e2e2;
+        padding-right: 18px;
+        margin-right: 8px;
+    }
+
+    &:hover{
+        color:$active-color
+    }
+
+    &__icon{
+       margin-right: 5px;
+       font-size: 1.2rem;
+    }
+    &__icon:last-child{
+        padding-right: 0px;
+    }
+}
+
+.nav {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 7px;
+    margin-left: 165px;
+
+    .nav__link--active{
+        color: $active-color;
+    }
+
+    &__link {
+        display: inline-block;
+        vertical-align: top;
+        color: $main-header-color;
+        text-decoration: none;
+        padding: 10px;
+        text-transform: capitalize;
+        transition: 0.3;
+
+        &:hover{
+            color: $active-color;
+        }
+
+        &::after{
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: $main-header-color;
+            margin-left: 15px;
+
+        }
+        &:last-child::after{
+            display: none;
+        }
+
+    }
+
+}
+
+   
+
+
+
