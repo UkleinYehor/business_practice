@@ -1,3 +1,9 @@
+// #sticky{
+//     position: sticky;
+//     top: 0;
+//     z-index: 9999;
+// }
+
 .header {
 
 
@@ -12,7 +18,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 41px 0px 32px;
-
+        background-color: #fff;
     }
 
     &__logo {
